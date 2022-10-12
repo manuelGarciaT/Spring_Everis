@@ -8,8 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="user_ever")
-public class UserEver {
+@Table(name="user_example")
+public class UserExample {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //autoincrementable y autogenerable
