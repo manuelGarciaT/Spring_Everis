@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class UserEver {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) //autoincrementable
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //autoincrementable y autogenerable
 	@Column (unique=true, nullable=false)
 	private Long id;
 	private String nombre;
